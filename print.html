@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Receipt</title>
+</head>
+<body>
+    <h1>Customer Receipt</h1>
+    <div id="customerInfo"></div>
+    <h2>Billing Items</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Barcode</th>
+                <th>Book Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody id="billingItemsTable"></tbody>
+    </table>
+    <div id="totalAmount"></div>
+    <script src="print.js"></script>
+</body>
+</html>

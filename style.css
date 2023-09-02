@@ -1,0 +1,27 @@
+Custom styles for the Carousel
+.carousel-inner {
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    max-height: 400px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.contact-container {
+    min-height: calc(100vh - 200px); /* Adjust the value as needed */
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
